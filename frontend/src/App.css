@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+@media(max-aspect-ratio : 7/10){
+
+.container{
+    width: 100%;
+    height: 60vh;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container img{
+    border: 1px;
+    border-radius: 30px;
+}
+.container label{
+    font-size: 20px;
+}
+.container input{
+    width: 60%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container button{
+    width: 150%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: red;
+}
+
+.chat-main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.chat-container{
+    width: 100%;
+    height: 100%;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+.chat-container label{
+    font-size: 50px;
+}
+.hd{
+    height: 10%;
+    border-bottom: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hd button{
+    background-color: black;
+    color: red;
+    font-size: 30px;
+}
+.bd{
+    width: 100%;
+    height: 80%;
+    background-color: lightcyan;
+    border-bottom: 1px solid black;
+}
+.fd{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd input{
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+}
+.fd button{
+    width: 20%;
+    height: 100%;
+    color: black;
+    background-color: red;
+    font-size: 25px;
+}
+.fd button:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.mbox{
+    background-color: crimson;
+    color: white;
+    width: 40%;
+    height: 200px;
+    height: fit-content;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear : both;
+    padding: 1vmax;
+}
+
+.right{
+    float: right;
+    background-color: crimson;
+    color: white;
+}
+.left{
+    float: left;
+    background-color: rgb(83, 253, 83);
+    color: black;
+}
+}
