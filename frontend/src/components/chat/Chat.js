@@ -6,7 +6,7 @@ import Message from '../message/Message';
 import ReactScrollToBottom from 'react-scroll-to-bottom';
 import {AiFillCloseCircle} from 'react-icons/ai';
 
-const endPoint = "sh://localhost:9090/";
+const endPoint = "http://localhost:9090/";
 let socket;
 
 const Chat = () => {
